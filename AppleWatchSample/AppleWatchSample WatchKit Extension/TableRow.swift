@@ -13,6 +13,6 @@ class TableRow: NSObject {
     
     static let className = "TableRow"
     
-    @IBOutlet var label: WKInterfaceLabel!
+    @IBOutlet weak var label: WKInterfaceLabel!
     
 }

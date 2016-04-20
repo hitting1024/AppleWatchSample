@@ -12,7 +12,7 @@ import Foundation
 
 class InterfaceController: WKInterfaceController {
 
-    @IBOutlet var table: WKInterfaceTable!
+    @IBOutlet weak var table: WKInterfaceTable!
     
     private static let rows = ["row1", "row2"]
     
