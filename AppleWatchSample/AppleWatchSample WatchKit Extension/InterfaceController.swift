@@ -12,10 +12,15 @@ import Foundation
 
 class InterfaceController: WKInterfaceController {
 
+    @IBOutlet var table: WKInterfaceTable!
+    
+    private static let rows = ["row1", "row2"]
+    
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
         
         // Configure interface objects here.
+        self.initTable()
     }
 
     override func willActivate() {
@@ -27,5 +32,13 @@ class InterfaceController: WKInterfaceController {
         // This method is called when watch view controller is no longer visible
         super.didDeactivate()
     }
-
+    
+    private func initTable() {
+        self.table.setNumberOfRows(InterfaceController.rows.count, withRowType: TableRow.className)
+        for i in 0..<InterfaceController.rows.count {
+            let row = self.table.rowControllerAtIndex(i) as! TableRow
+            row.label.setText(InterfaceController.rows[i])
+        }
+    }
+    
 }
