@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D8015FB41CCA6DB700F2BCED /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8015FB31CCA6DB700F2BCED /* DetailController.swift */; };
 		D81999571CC7B588009E7E48 /* TableRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81999561CC7B588009E7E48 /* TableRow.swift */; };
 		D8BD5DFC1CA7E86A000E4E0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BD5DFB1CA7E86A000E4E0E /* AppDelegate.swift */; };
 		D8BD5DFE1CA7E86A000E4E0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BD5DFD1CA7E86A000E4E0E /* ViewController.swift */; };
@@ -66,6 +67,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D8015FB31CCA6DB700F2BCED /* DetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
 		D81999561CC7B588009E7E48 /* TableRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableRow.swift; sourceTree = "<group>"; };
 		D8BD5DF81CA7E86A000E4E0E /* AppleWatchSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleWatchSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8BD5DFB1CA7E86A000E4E0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				D8BD5E201CA7E86B000E4E0E /* InterfaceController.swift */,
+				D8015FB31CCA6DB700F2BCED /* DetailController.swift */,
 				D81999561CC7B588009E7E48 /* TableRow.swift */,
 				D8BD5E221CA7E86B000E4E0E /* ExtensionDelegate.swift */,
 				D8BD5E241CA7E86B000E4E0E /* NotificationController.swift */,
@@ -315,6 +318,7 @@
 				D81999571CC7B588009E7E48 /* TableRow.swift in Sources */,
 				D8BD5E231CA7E86B000E4E0E /* ExtensionDelegate.swift in Sources */,
 				D8BD5E211CA7E86B000E4E0E /* InterfaceController.swift in Sources */,
+				D8015FB41CCA6DB700F2BCED /* DetailController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -32,6 +32,13 @@
             </objects>
             <point key="canvasLocation" x="220" y="345"/>
         </scene>
+        <!--DetailController-->
+        <scene sceneID="jd7-eb-ZXM">
+            <objects>
+                <controller identifier="DetailController" id="Ijp-0N-WeP" customClass="DetailController" customModule="AppleWatchSample_WatchKit_Extension"/>
+            </objects>
+            <point key="canvasLocation" x="498" y="345"/>
+        </scene>
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">
             <objects>

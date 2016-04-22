@@ -41,4 +41,8 @@ class InterfaceController: WKInterfaceController {
         }
     }
     
+    override func table(table: WKInterfaceTable, didSelectRowAtIndex rowIndex: Int) {
+        self.pushControllerWithName(DetailController.Identifiers.detailController, context: InterfaceController.rows[rowIndex])
+    }
+    
 }
