@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D8015FB41CCA6DB700F2BCED /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8015FB31CCA6DB700F2BCED /* DetailController.swift */; };
+		D8015FB41CCA6DB700F2BCED /* SegueTransitionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8015FB31CCA6DB700F2BCED /* SegueTransitionController.swift */; };
 		D81999571CC7B588009E7E48 /* TableRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81999561CC7B588009E7E48 /* TableRow.swift */; };
+		D886EB851CCC61C7004FEAD2 /* SegueDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D886EB841CCC61C7004FEAD2 /* SegueDetailController.swift */; };
 		D8BD5DFC1CA7E86A000E4E0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BD5DFB1CA7E86A000E4E0E /* AppDelegate.swift */; };
 		D8BD5DFE1CA7E86A000E4E0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BD5DFD1CA7E86A000E4E0E /* ViewController.swift */; };
 		D8BD5E011CA7E86A000E4E0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8BD5DFF1CA7E86A000E4E0E /* Main.storyboard */; };
@@ -67,8 +68,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		D8015FB31CCA6DB700F2BCED /* DetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
+		D8015FB31CCA6DB700F2BCED /* SegueTransitionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegueTransitionController.swift; sourceTree = "<group>"; };
 		D81999561CC7B588009E7E48 /* TableRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableRow.swift; sourceTree = "<group>"; };
+		D886EB841CCC61C7004FEAD2 /* SegueDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegueDetailController.swift; sourceTree = "<group>"; };
 		D8BD5DF81CA7E86A000E4E0E /* AppleWatchSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleWatchSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8BD5DFB1CA7E86A000E4E0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8BD5DFD1CA7E86A000E4E0E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -107,6 +109,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D86298181CCC60A900393DEE /* SegueTransition */ = {
+			isa = PBXGroup;
+			children = (
+				D8015FB31CCA6DB700F2BCED /* SegueTransitionController.swift */,
+				D886EB841CCC61C7004FEAD2 /* SegueDetailController.swift */,
+			);
+			path = SegueTransition;
+			sourceTree = "<group>";
+		};
 		D8BD5DEF1CA7E86A000E4E0E = {
 			isa = PBXGroup;
 			children = (
@@ -131,11 +142,11 @@
 			isa = PBXGroup;
 			children = (
 				D8BD5DFB1CA7E86A000E4E0E /* AppDelegate.swift */,
-				D8BD5DFD1CA7E86A000E4E0E /* ViewController.swift */,
-				D8BD5DFF1CA7E86A000E4E0E /* Main.storyboard */,
 				D8BD5E021CA7E86A000E4E0E /* Assets.xcassets */,
-				D8BD5E041CA7E86A000E4E0E /* LaunchScreen.storyboard */,
 				D8BD5E071CA7E86A000E4E0E /* Info.plist */,
+				D8BD5E041CA7E86A000E4E0E /* LaunchScreen.storyboard */,
+				D8BD5DFF1CA7E86A000E4E0E /* Main.storyboard */,
+				D8BD5DFD1CA7E86A000E4E0E /* ViewController.swift */,
 			);
 			path = AppleWatchSample;
 			sourceTree = "<group>";
@@ -143,9 +154,9 @@
 		D8BD5E0E1CA7E86A000E4E0E /* AppleWatchSample WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
-				D8BD5E0F1CA7E86A000E4E0E /* Interface.storyboard */,
 				D8BD5E121CA7E86A000E4E0E /* Assets.xcassets */,
 				D8BD5E141CA7E86A000E4E0E /* Info.plist */,
+				D8BD5E0F1CA7E86A000E4E0E /* Interface.storyboard */,
 			);
 			path = "AppleWatchSample WatchKit App";
 			sourceTree = "<group>";
@@ -153,14 +164,14 @@
 		D8BD5E1D1CA7E86B000E4E0E /* AppleWatchSample WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				D8BD5E201CA7E86B000E4E0E /* InterfaceController.swift */,
-				D8015FB31CCA6DB700F2BCED /* DetailController.swift */,
-				D81999561CC7B588009E7E48 /* TableRow.swift */,
-				D8BD5E221CA7E86B000E4E0E /* ExtensionDelegate.swift */,
-				D8BD5E241CA7E86B000E4E0E /* NotificationController.swift */,
-				D8BD5E261CA7E86B000E4E0E /* Assets.xcassets */,
-				D8BD5E281CA7E86B000E4E0E /* Info.plist */,
+				D86298181CCC60A900393DEE /* SegueTransition */,
 				D8BD5E1E1CA7E86B000E4E0E /* Supporting Files */,
+				D8BD5E261CA7E86B000E4E0E /* Assets.xcassets */,
+				D8BD5E221CA7E86B000E4E0E /* ExtensionDelegate.swift */,
+				D8BD5E281CA7E86B000E4E0E /* Info.plist */,
+				D8BD5E201CA7E86B000E4E0E /* InterfaceController.swift */,
+				D8BD5E241CA7E86B000E4E0E /* NotificationController.swift */,
+				D81999561CC7B588009E7E48 /* TableRow.swift */,
 			);
 			path = "AppleWatchSample WatchKit Extension";
 			sourceTree = "<group>";
@@ -170,7 +181,7 @@
 			children = (
 				D8BD5E1F1CA7E86B000E4E0E /* PushNotificationPayload.apns */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -318,7 +329,8 @@
 				D81999571CC7B588009E7E48 /* TableRow.swift in Sources */,
 				D8BD5E231CA7E86B000E4E0E /* ExtensionDelegate.swift in Sources */,
 				D8BD5E211CA7E86B000E4E0E /* InterfaceController.swift in Sources */,
-				D8015FB41CCA6DB700F2BCED /* DetailController.swift in Sources */,
+				D886EB851CCC61C7004FEAD2 /* SegueDetailController.swift in Sources */,
+				D8015FB41CCA6DB700F2BCED /* SegueTransitionController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +356,7 @@
 				D8BD5E001CA7E86A000E4E0E /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		D8BD5E041CA7E86A000E4E0E /* LaunchScreen.storyboard */ = {
@@ -352,6 +365,7 @@
 				D8BD5E051CA7E86A000E4E0E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		D8BD5E0F1CA7E86A000E4E0E /* Interface.storyboard */ = {
@@ -360,6 +374,7 @@
 				D8BD5E101CA7E86A000E4E0E /* Base */,
 			);
 			name = Interface.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
