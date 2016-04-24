@@ -14,7 +14,7 @@ class InterfaceController: WKInterfaceController {
 
     @IBOutlet weak var table: WKInterfaceTable!
     
-    private static let rows = ["row1", "row2"]
+    private static let rows = [SegueTransitionController.Identifiers.segueTransition, "row2"]
     
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
@@ -42,7 +42,7 @@ class InterfaceController: WKInterfaceController {
     }
     
     override func table(table: WKInterfaceTable, didSelectRowAtIndex rowIndex: Int) {
-        self.pushControllerWithName(DetailController.Identifiers.detailController, context: InterfaceController.rows[rowIndex])
+        self.pushControllerWithName(SegueTransitionController.Identifiers.segueTransition, context: InterfaceController.rows[rowIndex])
     }
     
 }

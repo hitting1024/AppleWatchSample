@@ -32,12 +32,49 @@
             </objects>
             <point key="canvasLocation" x="220" y="345"/>
         </scene>
-        <!--DetailController-->
+        <!--SegueTransition-->
         <scene sceneID="jd7-eb-ZXM">
             <objects>
-                <controller identifier="DetailController" id="Ijp-0N-WeP" customClass="DetailController" customModule="AppleWatchSample_WatchKit_Extension"/>
+                <controller identifier="SegueTransition" id="Ijp-0N-WeP" customClass="SegueTransitionController" customModule="AppleWatchSample_WatchKit_Extension">
+                    <items>
+                        <table alignment="left" id="I7r-hK-KGm">
+                            <items>
+                                <tableRow identifier="TableRow" id="02s-4w-Lov" customClass="TableRow" customModule="AppleWatchSample_WatchKit_Extension">
+                                    <group key="rootItem" width="1" alignment="left" id="HhT-UJ-lWr">
+                                        <items>
+                                            <label width="136" height="87.5" alignment="left" text="Label" id="fTW-om-3L2"/>
+                                        </items>
+                                        <connections>
+                                            <segue destination="zV7-8P-ws7" kind="push" identifier="SegueDetail" id="8pP-Lc-gJo"/>
+                                        </connections>
+                                    </group>
+                                    <connections>
+                                        <outlet property="label" destination="fTW-om-3L2" id="THS-0t-U9M"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="table" destination="I7r-hK-KGm" id="mdm-43-3Q5"/>
+                    </connections>
+                </controller>
             </objects>
-            <point key="canvasLocation" x="498" y="345"/>
+            <point key="canvasLocation" x="468" y="345"/>
+        </scene>
+        <!--Segue Detail Controller-->
+        <scene sceneID="K1b-01-SsP">
+            <objects>
+                <controller id="zV7-8P-ws7" customClass="SegueDetailController" customModule="AppleWatchSample_WatchKit_Extension">
+                    <items>
+                        <label width="136" height="170.5" alignment="left" text="Label" textAlignment="center" id="txA-6m-8XU"/>
+                    </items>
+                    <connections>
+                        <outlet property="label" destination="txA-6m-8XU" id="pWv-v5-Mpm"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="714" y="345"/>
         </scene>
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">
