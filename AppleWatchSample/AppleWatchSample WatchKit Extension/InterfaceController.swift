@@ -16,7 +16,7 @@ class InterfaceController: WKInterfaceController {
     
     private static let rows = [
         SegueTransitionController.Identifiers.segueTransition,
-        DisplayImageController.Identifiers.displayImage,
+        ImageFromStoryBoardController.Identifiers.displayImage,
         ImageFromCodeController.Identifiers.displayImageByCode
                                ]
     

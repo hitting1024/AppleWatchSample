@@ -9,10 +9,10 @@
 import Foundation
 import WatchKit
 
-class DisplayImageController: WKInterfaceController {
+class ImageFromStoryBoardController: WKInterfaceController {
     
     struct Identifiers {
-        static let displayImage = "DisplayImage"
+        static let displayImage = "ImageFromSB"
     }
     
     override func awakeWithContext(context: AnyObject?) {
