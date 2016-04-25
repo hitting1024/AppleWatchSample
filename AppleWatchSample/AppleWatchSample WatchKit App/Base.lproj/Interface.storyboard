@@ -32,6 +32,20 @@
             </objects>
             <point key="canvasLocation" x="220" y="345"/>
         </scene>
+        <!--ImageFromCode-->
+        <scene sceneID="gwF-aO-WE5">
+            <objects>
+                <controller identifier="ImageFromCode" id="YL7-oQ-TIP" customClass="ImageFromCodeController" customModule="AppleWatchSample_WatchKit_Extension">
+                    <items>
+                        <imageView alignment="center" verticalAlignment="center" id="cUj-v7-nNt"/>
+                    </items>
+                    <connections>
+                        <outlet property="image" destination="cUj-v7-nNt" id="beR-Zk-OdO"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="468" y="-224"/>
+        </scene>
         <!--DisplayImage-->
         <scene sceneID="7HM-34-8vC">
             <objects>

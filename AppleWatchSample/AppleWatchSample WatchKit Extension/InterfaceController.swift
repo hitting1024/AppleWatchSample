@@ -16,7 +16,8 @@ class InterfaceController: WKInterfaceController {
     
     private static let rows = [
         SegueTransitionController.Identifiers.segueTransition,
-        DisplayImageController.Identifiers.displayImage
+        DisplayImageController.Identifiers.displayImage,
+        ImageFromCodeController.Identifiers.displayImageByCode
                                ]
     
     override func awakeWithContext(context: AnyObject?) {

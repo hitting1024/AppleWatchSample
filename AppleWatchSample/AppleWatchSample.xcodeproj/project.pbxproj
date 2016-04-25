@@ -11,6 +11,7 @@
 		D81999571CC7B588009E7E48 /* TableRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81999561CC7B588009E7E48 /* TableRow.swift */; };
 		D81F603C1CCCE843005BBBC4 /* DisplayImageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81F603B1CCCE843005BBBC4 /* DisplayImageController.swift */; };
 		D8469ABD1CCD92C300528777 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8469ABC1CCD92C300528777 /* Assets.xcassets */; };
+		D8469AC01CCEDECE00528777 /* ImageFromCodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8469ABF1CCEDECE00528777 /* ImageFromCodeController.swift */; };
 		D886EB851CCC61C7004FEAD2 /* SegueDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D886EB841CCC61C7004FEAD2 /* SegueDetailController.swift */; };
 		D8BD5DFC1CA7E86A000E4E0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BD5DFB1CA7E86A000E4E0E /* AppDelegate.swift */; };
 		D8BD5DFE1CA7E86A000E4E0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BD5DFD1CA7E86A000E4E0E /* ViewController.swift */; };
@@ -73,6 +74,7 @@
 		D81999561CC7B588009E7E48 /* TableRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableRow.swift; sourceTree = "<group>"; };
 		D81F603B1CCCE843005BBBC4 /* DisplayImageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DisplayImageController.swift; path = DisplayImage/DisplayImageController.swift; sourceTree = "<group>"; };
 		D8469ABC1CCD92C300528777 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8469ABF1CCEDECE00528777 /* ImageFromCodeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageFromCodeController.swift; path = DisplayImageByCode/ImageFromCodeController.swift; sourceTree = "<group>"; };
 		D886EB841CCC61C7004FEAD2 /* SegueDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegueDetailController.swift; sourceTree = "<group>"; };
 		D8BD5DF81CA7E86A000E4E0E /* AppleWatchSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleWatchSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8BD5DFB1CA7E86A000E4E0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -117,6 +119,14 @@
 				D81F603B1CCCE843005BBBC4 /* DisplayImageController.swift */,
 			);
 			name = DisplayImage;
+			sourceTree = "<group>";
+		};
+		D8469ABE1CCEDEA300528777 /* DisplayImageByCode */ = {
+			isa = PBXGroup;
+			children = (
+				D8469ABF1CCEDECE00528777 /* ImageFromCodeController.swift */,
+			);
+			name = DisplayImageByCode;
 			sourceTree = "<group>";
 		};
 		D86298181CCC60A900393DEE /* SegueTransition */ = {
@@ -176,6 +186,7 @@
 			children = (
 				D86298181CCC60A900393DEE /* SegueTransition */,
 				D81F603A1CCCE805005BBBC4 /* DisplayImage */,
+				D8469ABE1CCEDEA300528777 /* DisplayImageByCode */,
 				D8BD5E1E1CA7E86B000E4E0E /* Supporting Files */,
 				D8BD5E261CA7E86B000E4E0E /* Assets.xcassets */,
 				D8BD5E221CA7E86B000E4E0E /* ExtensionDelegate.swift */,
@@ -338,6 +349,7 @@
 			files = (
 				D8BD5E251CA7E86B000E4E0E /* NotificationController.swift in Sources */,
 				D81F603C1CCCE843005BBBC4 /* DisplayImageController.swift in Sources */,
+				D8469AC01CCEDECE00528777 /* ImageFromCodeController.swift in Sources */,
 				D81999571CC7B588009E7E48 /* TableRow.swift in Sources */,
 				D8BD5E231CA7E86B000E4E0E /* ExtensionDelegate.swift in Sources */,
 				D8BD5E211CA7E86B000E4E0E /* InterfaceController.swift in Sources */,
