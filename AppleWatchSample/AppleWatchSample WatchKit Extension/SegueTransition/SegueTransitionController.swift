@@ -14,7 +14,7 @@ class SegueTransitionController: WKInterfaceController {
     @IBOutlet weak var table: WKInterfaceTable!
     
     struct Identifiers {
-        static let segueTransition = "SegueTransition"
+        static let name = "SegueTransition"
     }
     
     private static let rows = ["row1", "row2"]

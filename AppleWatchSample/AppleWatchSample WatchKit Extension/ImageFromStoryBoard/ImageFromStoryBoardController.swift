@@ -12,7 +12,7 @@ import WatchKit
 class ImageFromStoryBoardController: WKInterfaceController {
     
     struct Identifiers {
-        static let displayImage = "ImageFromSB"
+        static let name = "ImageFromSB"
     }
     
     override func awakeWithContext(context: AnyObject?) {

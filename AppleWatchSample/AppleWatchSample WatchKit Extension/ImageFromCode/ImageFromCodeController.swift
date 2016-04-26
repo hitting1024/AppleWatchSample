@@ -14,7 +14,7 @@ class ImageFromCodeController: WKInterfaceController {
     @IBOutlet weak var image: WKInterfaceImage!
     
     struct Identifiers {
-        static let displayImageByCode = "ImageFromCode"
+        static let name = "ImageFromCode"
     }
     
     override func awakeWithContext(context: AnyObject?) {

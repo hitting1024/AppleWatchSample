@@ -15,9 +15,9 @@ class InterfaceController: WKInterfaceController {
     @IBOutlet weak var table: WKInterfaceTable!
     
     private static let rows = [
-        SegueTransitionController.Identifiers.segueTransition,
-        ImageFromStoryBoardController.Identifiers.displayImage,
-        ImageFromCodeController.Identifiers.displayImageByCode
+        SegueTransitionController.Identifiers.name,
+        ImageFromStoryBoardController.Identifiers.name,
+        ImageFromCodeController.Identifiers.name
                                ]
     
     override func awakeWithContext(context: AnyObject?) {
