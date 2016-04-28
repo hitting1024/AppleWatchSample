@@ -58,8 +58,6 @@
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
-			<key>name</key>
-			<string>ImageFromStoryBoard</string>
 			<key>path</key>
 			<string>ImageFromStoryBoard</string>
 			<key>sourceTree</key>
@@ -133,6 +131,66 @@
 		<dict>
 			<key>fileRef</key>
 			<string>D8469ABF1CCEDECE00528777</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D8469AC21CD0345800528777</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>D8469AC71CD22F8100528777</string>
+				<string>D8469AC51CD034AD00528777</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>ModalTransision</string>
+			<key>path</key>
+			<string>ModalTransision</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D8469AC51CD034AD00528777</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>ModalTransisionController.swift</string>
+			<key>path</key>
+			<string>ModalTransisionController.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D8469AC61CD034AD00528777</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D8469AC51CD034AD00528777</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D8469AC71CD22F8100528777</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>ModalDetailController.swift</string>
+			<key>path</key>
+			<string>ModalDetailController.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D8469AC81CD22F8100528777</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D8469AC71CD22F8100528777</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -658,6 +716,8 @@
 			<key>files</key>
 			<array>
 				<string>D8BD5E251CA7E86B000E4E0E</string>
+				<string>D8469AC61CD034AD00528777</string>
+				<string>D8469AC81CD22F8100528777</string>
 				<string>D81F603C1CCCE843005BBBC4</string>
 				<string>D8469AC01CCEDECE00528777</string>
 				<string>D81999571CC7B588009E7E48</string>
@@ -775,6 +835,7 @@
 			<array>
 				<string>D8469ABE1CCEDEA300528777</string>
 				<string>D81F603A1CCCE805005BBBC4</string>
+				<string>D8469AC21CD0345800528777</string>
 				<string>D86298181CCC60A900393DEE</string>
 				<string>D8BD5E1E1CA7E86B000E4E0E</string>
 				<string>D8BD5E261CA7E86B000E4E0E</string>

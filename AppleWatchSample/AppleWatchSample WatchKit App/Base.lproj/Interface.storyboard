@@ -57,7 +57,37 @@
                     </items>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="468" y="54"/>
+            <point key="canvasLocation" x="714" y="-224"/>
+        </scene>
+        <!--ModalTransition-->
+        <scene sceneID="bfu-aX-llz">
+            <objects>
+                <controller identifier="ModalTransition" id="ik5-Lo-DsS" customClass="ModalTransitionController" customModule="AppleWatchSample_WatchKit_Extension">
+                    <items>
+                        <button width="1" alignment="center" verticalAlignment="center" title="Modal" id="ggP-Xu-LcG">
+                            <connections>
+                                <segue destination="efU-FK-VXW" kind="modal" id="Wh1-dA-RT5"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="468" y="63"/>
+        </scene>
+        <!--Modal Detail Controller-->
+        <scene sceneID="GD5-0o-Jvr">
+            <objects>
+                <controller id="efU-FK-VXW" customClass="ModalDetailController" customModule="AppleWatchSample_WatchKit_Extension">
+                    <items>
+                        <button width="1" alignment="center" verticalAlignment="center" title="Dismiss" id="5Tf-cC-VcH">
+                            <connections>
+                                <action selector="dismiss" destination="efU-FK-VXW" id="OgO-Xr-hRq"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="714" y="63"/>
         </scene>
         <!--SegueTransition-->
         <scene sceneID="jd7-eb-ZXM">

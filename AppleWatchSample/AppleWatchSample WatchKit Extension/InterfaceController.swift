@@ -17,7 +17,8 @@ class InterfaceController: WKInterfaceController {
     private static let rows = [
         SegueTransitionController.Identifiers.name,
         ImageFromStoryBoardController.Identifiers.name,
-        ImageFromCodeController.Identifiers.name
+        ImageFromCodeController.Identifiers.name,
+        ModalTransitionController.Identifiers.name
                                ]
     
     override func awakeWithContext(context: AnyObject?) {
