@@ -32,6 +32,24 @@
             </objects>
             <point key="canvasLocation" x="220" y="345"/>
         </scene>
+        <!--ImageButton-->
+        <scene sceneID="lvH-oi-DZ7">
+            <objects>
+                <controller identifier="ImageButton" id="5Mq-PC-XLn" customClass="ImageButtonController" customModule="AppleWatchSample_WatchKit_Extension">
+                    <items>
+                        <button alignment="center" verticalAlignment="center" backgroundImage="add" id="DLU-Eg-jU6">
+                            <connections>
+                                <action selector="tapButton" destination="5Mq-PC-XLn" id="3Nv-Dn-ZnS"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="imageButton" destination="DLU-Eg-jU6" id="3Wq-hw-hnd"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="468" y="-503"/>
+        </scene>
         <!--ImageFromCode-->
         <scene sceneID="gwF-aO-WE5">
             <objects>
