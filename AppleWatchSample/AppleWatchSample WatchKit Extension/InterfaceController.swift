@@ -19,7 +19,8 @@ class InterfaceController: WKInterfaceController {
         ImageFromStoryBoardController.Identifiers.name,
         ImageFromCodeController.Identifiers.name,
         ModalTransitionController.Identifiers.name,
-        ImageButtonController.Identifiers.name
+        ImageButtonController.Identifiers.name,
+        TimerController.Identifiers.name
                                ]
     
     override func awakeWithContext(context: AnyObject?) {

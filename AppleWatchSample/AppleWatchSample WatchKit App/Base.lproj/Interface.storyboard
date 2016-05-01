@@ -50,6 +50,39 @@
             </objects>
             <point key="canvasLocation" x="468" y="-503"/>
         </scene>
+        <!--Timer-->
+        <scene sceneID="xaG-mh-C8M">
+            <objects>
+                <controller identifier="Timer" id="R4e-Ru-vFm" customClass="TimerController" customModule="AppleWatchSample_WatchKit_Extension">
+                    <items>
+                        <timer alignment="center" verticalAlignment="center" id="akH-Jn-cvS"/>
+                        <label alignment="center" verticalAlignment="bottom" text="Count timer in background when timer stopped." numberOfLines="3" id="SFz-co-U5j">
+                            <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                        </label>
+                        <group width="1" alignment="center" id="rad-bB-EH1">
+                            <items>
+                                <button width="60" alignment="left" title="Start" id="cLA-eQ-zXF">
+                                    <connections>
+                                        <action selector="startTimer" destination="R4e-Ru-vFm" id="HRZ-LJ-nzr"/>
+                                    </connections>
+                                </button>
+                                <button width="60" alignment="right" title="Stop" enabled="NO" id="S4H-lT-hiC">
+                                    <connections>
+                                        <action selector="stopTimer" destination="R4e-Ru-vFm" id="zKH-3P-eRj"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="startButton" destination="cLA-eQ-zXF" id="rkM-LV-u1K"/>
+                        <outlet property="stopButton" destination="S4H-lT-hiC" id="mIp-Ev-zQs"/>
+                        <outlet property="timer" destination="akH-Jn-cvS" id="Sdr-TC-dKE"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="714" y="-503"/>
+        </scene>
         <!--ImageFromCode-->
         <scene sceneID="gwF-aO-WE5">
             <objects>
