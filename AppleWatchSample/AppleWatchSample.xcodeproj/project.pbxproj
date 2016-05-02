@@ -11,6 +11,7 @@
 		D81999571CC7B588009E7E48 /* TableRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81999561CC7B588009E7E48 /* TableRow.swift */; };
 		D81F603C1CCCE843005BBBC4 /* ImageFromStoryBoardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81F603B1CCCE843005BBBC4 /* ImageFromStoryBoardController.swift */; };
 		D8237BCF1CD3926C00094833 /* TimerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8237BCE1CD3926C00094833 /* TimerController.swift */; };
+		D82EFB2D1CD73A1E00DE3522 /* SliderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82EFB2C1CD73A1E00DE3522 /* SliderController.swift */; };
 		D8469ABD1CCD92C300528777 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8469ABC1CCD92C300528777 /* Assets.xcassets */; };
 		D8469AC01CCEDECE00528777 /* ImageFromCodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8469ABF1CCEDECE00528777 /* ImageFromCodeController.swift */; };
 		D8469AC61CD034AD00528777 /* ModalTransisionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8469AC51CD034AD00528777 /* ModalTransisionController.swift */; };
@@ -78,6 +79,7 @@
 		D81999561CC7B588009E7E48 /* TableRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableRow.swift; sourceTree = "<group>"; };
 		D81F603B1CCCE843005BBBC4 /* ImageFromStoryBoardController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageFromStoryBoardController.swift; sourceTree = "<group>"; };
 		D8237BCE1CD3926C00094833 /* TimerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimerController.swift; path = Timer/TimerController.swift; sourceTree = "<group>"; };
+		D82EFB2C1CD73A1E00DE3522 /* SliderController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SliderController.swift; path = Slider/SliderController.swift; sourceTree = "<group>"; };
 		D8469ABC1CCD92C300528777 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8469ABF1CCEDECE00528777 /* ImageFromCodeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageFromCodeController.swift; sourceTree = "<group>"; };
 		D8469AC51CD034AD00528777 /* ModalTransisionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalTransisionController.swift; sourceTree = "<group>"; };
@@ -135,6 +137,14 @@
 				D8237BCE1CD3926C00094833 /* TimerController.swift */,
 			);
 			name = Timer;
+			sourceTree = "<group>";
+		};
+		D82EFB2B1CD739FF00DE3522 /* Slider */ = {
+			isa = PBXGroup;
+			children = (
+				D82EFB2C1CD73A1E00DE3522 /* SliderController.swift */,
+			);
+			name = Slider;
 			sourceTree = "<group>";
 		};
 		D8469ABE1CCEDEA300528777 /* ImageFromCode */ = {
@@ -217,6 +227,7 @@
 		D8BD5E1D1CA7E86B000E4E0E /* AppleWatchSample WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				D82EFB2B1CD739FF00DE3522 /* Slider */,
 				D8237BCD1CD3924500094833 /* Timer */,
 				D875811A1CD38AED00C7CD27 /* ImageButton */,
 				D8469ABE1CCEDEA300528777 /* ImageFromCode */,
@@ -386,6 +397,7 @@
 				D8BD5E251CA7E86B000E4E0E /* NotificationController.swift in Sources */,
 				D8469AC61CD034AD00528777 /* ModalTransisionController.swift in Sources */,
 				D8469AC81CD22F8100528777 /* ModalDetailController.swift in Sources */,
+				D82EFB2D1CD73A1E00DE3522 /* SliderController.swift in Sources */,
 				D81F603C1CCCE843005BBBC4 /* ImageFromStoryBoardController.swift in Sources */,
 				D8469AC01CCEDECE00528777 /* ImageFromCodeController.swift in Sources */,
 				D8237BCF1CD3926C00094833 /* TimerController.swift in Sources */,

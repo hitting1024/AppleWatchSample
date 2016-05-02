@@ -32,6 +32,25 @@
             </objects>
             <point key="canvasLocation" x="220" y="345"/>
         </scene>
+        <!--Slider-->
+        <scene sceneID="dQc-d7-xwL">
+            <objects>
+                <controller identifier="Slider" id="hdR-Qw-87Y" customClass="SliderController" customModule="AppleWatchSample_WatchKit_Extension">
+                    <items>
+                        <slider width="1" alignment="left" value="0.5" steps="10" id="oVu-NX-BO5">
+                            <connections>
+                                <action selector="changeValue:" destination="hdR-Qw-87Y" id="TCn-EI-dMk"/>
+                            </connections>
+                        </slider>
+                        <imageView alignment="center" verticalAlignment="center" image="bulb" id="QAy-pw-lRt"/>
+                    </items>
+                    <connections>
+                        <outlet property="img" destination="QAy-pw-lRt" id="g6g-ru-mbk"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="468" y="-800"/>
+        </scene>
         <!--ImageButton-->
         <scene sceneID="lvH-oi-DZ7">
             <objects>
