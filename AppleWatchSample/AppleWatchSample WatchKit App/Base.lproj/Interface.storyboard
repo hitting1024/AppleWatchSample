@@ -51,6 +51,25 @@
             </objects>
             <point key="canvasLocation" x="468" y="-800"/>
         </scene>
+        <!--Switch-->
+        <scene sceneID="Bwt-AS-5vN">
+            <objects>
+                <controller identifier="Switch" id="CYg-Ky-07Q" customClass="SwitchController" customModule="AppleWatchSample_WatchKit_Extension">
+                    <items>
+                        <switch width="1" alignment="left" value="YES" title="Light" id="Kv3-iB-6Uk">
+                            <connections>
+                                <action selector="changeSwitch:" destination="CYg-Ky-07Q" id="U6o-LT-ECE"/>
+                            </connections>
+                        </switch>
+                        <imageView alignment="center" verticalAlignment="center" image="bulb" id="pNo-O5-XhY"/>
+                    </items>
+                    <connections>
+                        <outlet property="img" destination="pNo-O5-XhY" id="t7r-SE-7gF"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="714" y="-800"/>
+        </scene>
         <!--ImageButton-->
         <scene sceneID="lvH-oi-DZ7">
             <objects>

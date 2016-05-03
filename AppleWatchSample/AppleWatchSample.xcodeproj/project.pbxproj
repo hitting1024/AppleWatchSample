@@ -16,6 +16,7 @@
 		D8469AC01CCEDECE00528777 /* ImageFromCodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8469ABF1CCEDECE00528777 /* ImageFromCodeController.swift */; };
 		D8469AC61CD034AD00528777 /* ModalTransisionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8469AC51CD034AD00528777 /* ModalTransisionController.swift */; };
 		D8469AC81CD22F8100528777 /* ModalDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8469AC71CD22F8100528777 /* ModalDetailController.swift */; };
+		D86F39531CD89C61009CB8BF /* SwitchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86F39521CD89C61009CB8BF /* SwitchController.swift */; };
 		D875811C1CD38B1200C7CD27 /* ImageButtonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D875811B1CD38B1200C7CD27 /* ImageButtonController.swift */; };
 		D886EB851CCC61C7004FEAD2 /* SegueDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D886EB841CCC61C7004FEAD2 /* SegueDetailController.swift */; };
 		D8BD5DFC1CA7E86A000E4E0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BD5DFB1CA7E86A000E4E0E /* AppDelegate.swift */; };
@@ -84,6 +85,7 @@
 		D8469ABF1CCEDECE00528777 /* ImageFromCodeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageFromCodeController.swift; sourceTree = "<group>"; };
 		D8469AC51CD034AD00528777 /* ModalTransisionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalTransisionController.swift; sourceTree = "<group>"; };
 		D8469AC71CD22F8100528777 /* ModalDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalDetailController.swift; sourceTree = "<group>"; };
+		D86F39521CD89C61009CB8BF /* SwitchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchController.swift; sourceTree = "<group>"; };
 		D875811B1CD38B1200C7CD27 /* ImageButtonController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageButtonController.swift; path = ImageButton/ImageButtonController.swift; sourceTree = "<group>"; };
 		D886EB841CCC61C7004FEAD2 /* SegueDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegueDetailController.swift; sourceTree = "<group>"; };
 		D8BD5DF81CA7E86A000E4E0E /* AppleWatchSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleWatchSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -173,6 +175,14 @@
 			path = SegueTransition;
 			sourceTree = "<group>";
 		};
+		D86F39511CD89C4E009CB8BF /* Switch */ = {
+			isa = PBXGroup;
+			children = (
+				D86F39521CD89C61009CB8BF /* SwitchController.swift */,
+			);
+			name = Switch;
+			sourceTree = "<group>";
+		};
 		D875811A1CD38AED00C7CD27 /* ImageButton */ = {
 			isa = PBXGroup;
 			children = (
@@ -227,6 +237,7 @@
 		D8BD5E1D1CA7E86B000E4E0E /* AppleWatchSample WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				D86F39511CD89C4E009CB8BF /* Switch */,
 				D82EFB2B1CD739FF00DE3522 /* Slider */,
 				D8237BCD1CD3924500094833 /* Timer */,
 				D875811A1CD38AED00C7CD27 /* ImageButton */,
@@ -405,6 +416,7 @@
 				D8BD5E231CA7E86B000E4E0E /* ExtensionDelegate.swift in Sources */,
 				D8BD5E211CA7E86B000E4E0E /* InterfaceController.swift in Sources */,
 				D886EB851CCC61C7004FEAD2 /* SegueDetailController.swift in Sources */,
+				D86F39531CD89C61009CB8BF /* SwitchController.swift in Sources */,
 				D8015FB41CCA6DB700F2BCED /* SegueTransitionController.swift in Sources */,
 				D875811C1CD38B1200C7CD27 /* ImageButtonController.swift in Sources */,
 			);
