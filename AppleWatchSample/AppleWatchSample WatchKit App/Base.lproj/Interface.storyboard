@@ -51,6 +51,20 @@
             </objects>
             <point key="canvasLocation" x="468" y="-800"/>
         </scene>
+        <!--Picker-->
+        <scene sceneID="zEE-0C-n50">
+            <objects>
+                <controller identifier="Picker" id="bNN-Ta-Jlv" customClass="PickerController" customModule="AppleWatchSample_WatchKit_Extension">
+                    <items>
+                        <picker height="100" alignment="center" verticalAlignment="center" focusStyle="sequence" id="A55-GV-zNa"/>
+                    </items>
+                    <connections>
+                        <outlet property="picker" destination="A55-GV-zNa" id="ocK-ye-bHf"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="468" y="-1090"/>
+        </scene>
         <!--Switch-->
         <scene sceneID="Bwt-AS-5vN">
             <objects>

@@ -30,6 +30,43 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
+		<key>D801AB241CDB3BD4004F62A8</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>D801AB251CDB3BF6004F62A8</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Picker</string>
+			<key>path</key>
+			<string>Picker</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D801AB251CDB3BF6004F62A8</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>PickerController.swift</string>
+			<key>path</key>
+			<string>PickerController.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D801AB261CDB3BF6004F62A8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D801AB251CDB3BF6004F62A8</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>D81999561CC7B588009E7E48</key>
 		<dict>
 			<key>fileEncoding</key>
@@ -91,8 +128,6 @@
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Timer</string>
 			<key>path</key>
 			<string>Timer</string>
 			<key>sourceTree</key>
@@ -106,8 +141,6 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>TimerController.swift</string>
 			<key>path</key>
 			<string>TimerController.swift</string>
 			<key>sourceTree</key>
@@ -128,8 +161,6 @@
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Slider</string>
 			<key>path</key>
 			<string>Slider</string>
 			<key>sourceTree</key>
@@ -143,8 +174,6 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>SliderController.swift</string>
 			<key>path</key>
 			<string>SliderController.swift</string>
 			<key>sourceTree</key>
@@ -284,8 +313,6 @@
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Switch</string>
 			<key>path</key>
 			<string>Switch</string>
 			<key>sourceTree</key>
@@ -319,8 +346,6 @@
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
-			<key>name</key>
-			<string>ImageButton</string>
 			<key>path</key>
 			<string>ImageButton</string>
 			<key>sourceTree</key>
@@ -334,8 +359,6 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>ImageButtonController.swift</string>
 			<key>path</key>
 			<string>ImageButtonController.swift</string>
 			<key>sourceTree</key>
@@ -857,6 +880,7 @@
 			<array>
 				<string>D8BD5E251CA7E86B000E4E0E</string>
 				<string>D8469AC61CD034AD00528777</string>
+				<string>D801AB261CDB3BF6004F62A8</string>
 				<string>D8469AC81CD22F8100528777</string>
 				<string>D82EFB2D1CD73A1E00DE3522</string>
 				<string>D81F603C1CCCE843005BBBC4</string>
@@ -981,6 +1005,7 @@
 				<string>D8469ABE1CCEDEA300528777</string>
 				<string>D81F603A1CCCE805005BBBC4</string>
 				<string>D8469AC21CD0345800528777</string>
+				<string>D801AB241CDB3BD4004F62A8</string>
 				<string>D86298181CCC60A900393DEE</string>
 				<string>D82EFB2B1CD739FF00DE3522</string>
 				<string>D8BD5E1E1CA7E86B000E4E0E</string>

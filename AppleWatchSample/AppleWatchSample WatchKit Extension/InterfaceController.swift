@@ -22,7 +22,8 @@ class InterfaceController: WKInterfaceController {
         ImageButtonController.Identifiers.name,
         TimerController.Identifiers.name,
         SliderController.Identifiers.name,
-        SwitchController.Identifiers.name
+        SwitchController.Identifiers.name,
+        PickerController.Identifiers.name
                                ]
     
     override func awakeWithContext(context: AnyObject?) {
