@@ -23,7 +23,8 @@ class InterfaceController: WKInterfaceController {
         TimerController.Identifiers.name,
         SliderController.Identifiers.name,
         SwitchController.Identifiers.name,
-        PickerController.Identifiers.name
+        PickerController.Identifiers.name,
+        ActivityRingController.Identifiers.name
                                ]
     
     override func awakeWithContext(context: AnyObject?) {
