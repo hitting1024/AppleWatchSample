@@ -15,16 +15,16 @@ class InterfaceController: WKInterfaceController {
     @IBOutlet weak var table: WKInterfaceTable!
     
     private static let rows = [
-        SegueTransitionController.Identifiers.name,
-        ImageFromStoryBoardController.Identifiers.name,
-        ImageFromCodeController.Identifiers.name,
-        ModalTransitionController.Identifiers.name,
+        ActivityRingController.Identifiers.name,
         ImageButtonController.Identifiers.name,
-        TimerController.Identifiers.name,
+        ImageFromCodeController.Identifiers.name,
+        ImageFromStoryBoardController.Identifiers.name,
+        ModalTransitionController.Identifiers.name,
+        PickerController.Identifiers.name,
+        SegueTransitionController.Identifiers.name,
         SliderController.Identifiers.name,
         SwitchController.Identifiers.name,
-        PickerController.Identifiers.name,
-        ActivityRingController.Identifiers.name
+        TimerController.Identifiers.name,
                                ]
     
     override func awakeWithContext(context: AnyObject?) {
