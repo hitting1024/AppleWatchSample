@@ -51,6 +51,36 @@
             </objects>
             <point key="canvasLocation" x="468" y="-800"/>
         </scene>
+        <!--Menu-->
+        <scene sceneID="tIG-KA-8NJ">
+            <objects>
+                <controller identifier="Menu" id="wPn-VJ-cB8" customClass="MenuController" customModule="AppleWatchSample_WatchKit_Extension">
+                    <items>
+                        <label alignment="left" text="Show menu at force touch" numberOfLines="4" id="cEr-RY-QCD"/>
+                    </items>
+                    <menu key="menu" id="sG3-aM-Uqx">
+                        <items>
+                            <menuItem title="Accept" icon="accept" id="xkX-nf-DQv">
+                                <connections>
+                                    <action selector="accept" destination="wPn-VJ-cB8" id="wbd-TH-W4w"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Decline" icon="decline" id="F06-bR-8Qp">
+                                <connections>
+                                    <action selector="decline" destination="wPn-VJ-cB8" id="ixt-jN-oDZ"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Bulb" image="bulb" id="ecG-Sf-OQk">
+                                <connections>
+                                    <action selector="bulb" destination="wPn-VJ-cB8" id="8yr-eu-mW4"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="468" y="-1380"/>
+        </scene>
         <!--Picker-->
         <scene sceneID="zEE-0C-n50">
             <objects>

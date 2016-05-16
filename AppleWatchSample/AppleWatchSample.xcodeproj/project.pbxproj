@@ -21,6 +21,7 @@
 		D86F39531CD89C61009CB8BF /* SwitchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86F39521CD89C61009CB8BF /* SwitchController.swift */; };
 		D875811C1CD38B1200C7CD27 /* ImageButtonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D875811B1CD38B1200C7CD27 /* ImageButtonController.swift */; };
 		D886EB851CCC61C7004FEAD2 /* SegueDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D886EB841CCC61C7004FEAD2 /* SegueDetailController.swift */; };
+		D89CF44B1CE9F6A200844CD9 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89CF44A1CE9F6A200844CD9 /* MenuController.swift */; };
 		D8BD5DFC1CA7E86A000E4E0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BD5DFB1CA7E86A000E4E0E /* AppDelegate.swift */; };
 		D8BD5DFE1CA7E86A000E4E0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BD5DFD1CA7E86A000E4E0E /* ViewController.swift */; };
 		D8BD5E011CA7E86A000E4E0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8BD5DFF1CA7E86A000E4E0E /* Main.storyboard */; };
@@ -92,6 +93,7 @@
 		D86F39521CD89C61009CB8BF /* SwitchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchController.swift; sourceTree = "<group>"; };
 		D875811B1CD38B1200C7CD27 /* ImageButtonController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageButtonController.swift; sourceTree = "<group>"; };
 		D886EB841CCC61C7004FEAD2 /* SegueDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegueDetailController.swift; sourceTree = "<group>"; };
+		D89CF44A1CE9F6A200844CD9 /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuController.swift; path = Menu/MenuController.swift; sourceTree = "<group>"; };
 		D8BD5DF81CA7E86A000E4E0E /* AppleWatchSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleWatchSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8BD5DFB1CA7E86A000E4E0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8BD5DFD1CA7E86A000E4E0E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -211,6 +213,14 @@
 			path = ImageButton;
 			sourceTree = "<group>";
 		};
+		D89CF4491CE9F67800844CD9 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				D89CF44A1CE9F6A200844CD9 /* MenuController.swift */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
 		D8BD5DEF1CA7E86A000E4E0E = {
 			isa = PBXGroup;
 			children = (
@@ -261,6 +271,7 @@
 				D875811A1CD38AED00C7CD27 /* ImageButton */,
 				D8469ABE1CCEDEA300528777 /* ImageFromCode */,
 				D81F603A1CCCE805005BBBC4 /* ImageFromStoryBoard */,
+				D89CF4491CE9F67800844CD9 /* Menu */,
 				D8469AC21CD0345800528777 /* ModalTransision */,
 				D801AB241CDB3BD4004F62A8 /* Picker */,
 				D86298181CCC60A900393DEE /* SegueTransition */,
@@ -428,6 +439,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8BD5E251CA7E86B000E4E0E /* NotificationController.swift in Sources */,
+				D89CF44B1CE9F6A200844CD9 /* MenuController.swift in Sources */,
 				D8469AC61CD034AD00528777 /* ModalTransisionController.swift in Sources */,
 				D801AB261CDB3BF6004F62A8 /* PickerController.swift in Sources */,
 				D8469AC81CD22F8100528777 /* ModalDetailController.swift in Sources */,

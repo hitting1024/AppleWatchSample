@@ -19,6 +19,7 @@ class InterfaceController: WKInterfaceController {
         ImageButtonController.Identifiers.name,
         ImageFromCodeController.Identifiers.name,
         ImageFromStoryBoardController.Identifiers.name,
+        MenuController.Identifiers.name,
         ModalTransitionController.Identifiers.name,
         PickerController.Identifiers.name,
         SegueTransitionController.Identifiers.name,
