@@ -13,6 +13,7 @@
 		D81F603C1CCCE843005BBBC4 /* ImageFromStoryBoardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81F603B1CCCE843005BBBC4 /* ImageFromStoryBoardController.swift */; };
 		D8237BCF1CD3926C00094833 /* TimerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8237BCE1CD3926C00094833 /* TimerController.swift */; };
 		D82EFB2D1CD73A1E00DE3522 /* SliderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82EFB2C1CD73A1E00DE3522 /* SliderController.swift */; };
+		D83112AA1CEE897800BD30C3 /* SwipeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83112A91CEE897800BD30C3 /* SwipeController.swift */; };
 		D8469ABD1CCD92C300528777 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8469ABC1CCD92C300528777 /* Assets.xcassets */; };
 		D8469AC01CCEDECE00528777 /* ImageFromCodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8469ABF1CCEDECE00528777 /* ImageFromCodeController.swift */; };
 		D8469AC61CD034AD00528777 /* ModalTransisionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8469AC51CD034AD00528777 /* ModalTransisionController.swift */; };
@@ -85,6 +86,7 @@
 		D81F603B1CCCE843005BBBC4 /* ImageFromStoryBoardController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageFromStoryBoardController.swift; sourceTree = "<group>"; };
 		D8237BCE1CD3926C00094833 /* TimerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerController.swift; sourceTree = "<group>"; };
 		D82EFB2C1CD73A1E00DE3522 /* SliderController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderController.swift; sourceTree = "<group>"; };
+		D83112A91CEE897800BD30C3 /* SwipeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwipeController.swift; path = SwipeTransition/SwipeController.swift; sourceTree = "<group>"; };
 		D8469ABC1CCD92C300528777 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8469ABF1CCEDECE00528777 /* ImageFromCodeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageFromCodeController.swift; sourceTree = "<group>"; };
 		D8469AC51CD034AD00528777 /* ModalTransisionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalTransisionController.swift; sourceTree = "<group>"; };
@@ -161,6 +163,14 @@
 				D82EFB2C1CD73A1E00DE3522 /* SliderController.swift */,
 			);
 			path = Slider;
+			sourceTree = "<group>";
+		};
+		D83112A81CEE891F00BD30C3 /* SwipeTransition */ = {
+			isa = PBXGroup;
+			children = (
+				D83112A91CEE897800BD30C3 /* SwipeController.swift */,
+			);
+			name = SwipeTransition;
 			sourceTree = "<group>";
 		};
 		D8469ABE1CCEDEA300528777 /* ImageFromCode */ = {
@@ -277,6 +287,7 @@
 				D86298181CCC60A900393DEE /* SegueTransition */,
 				D82EFB2B1CD739FF00DE3522 /* Slider */,
 				D8BD5E1E1CA7E86B000E4E0E /* Supporting Files */,
+				D83112A81CEE891F00BD30C3 /* SwipeTransition */,
 				D86F39511CD89C4E009CB8BF /* Switch */,
 				D8237BCD1CD3924500094833 /* Timer */,
 				D8BD5E261CA7E86B000E4E0E /* Assets.xcassets */,
@@ -452,6 +463,7 @@
 				D8BD5E231CA7E86B000E4E0E /* ExtensionDelegate.swift in Sources */,
 				D8BD5E211CA7E86B000E4E0E /* InterfaceController.swift in Sources */,
 				D886EB851CCC61C7004FEAD2 /* SegueDetailController.swift in Sources */,
+				D83112AA1CEE897800BD30C3 /* SwipeController.swift in Sources */,
 				D86F39531CD89C61009CB8BF /* SwitchController.swift in Sources */,
 				D8015FB41CCA6DB700F2BCED /* SegueTransitionController.swift in Sources */,
 				D875811C1CD38B1200C7CD27 /* ImageButtonController.swift in Sources */,

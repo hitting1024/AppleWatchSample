@@ -51,6 +51,45 @@
             </objects>
             <point key="canvasLocation" x="468" y="-800"/>
         </scene>
+        <!--Swipe1-->
+        <scene sceneID="Fgw-I7-SlO">
+            <objects>
+                <controller identifier="Swipe1" id="fph-mx-eIk" customClass="SwipeController" customModule="AppleWatchSample_WatchKit_Extension">
+                    <items>
+                        <label alignment="left" text="Page1" id="Z6x-KP-T5o"/>
+                    </items>
+                    <connections>
+                        <segue destination="nJA-AH-uDw" kind="relationship" relationship="nextPage" id="l99-BE-D8s"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="468" y="-1673"/>
+        </scene>
+        <!--Swipe2-->
+        <scene sceneID="U9v-IU-riK">
+            <objects>
+                <controller identifier="Swipe2" id="nJA-AH-uDw">
+                    <items>
+                        <label alignment="left" text="Page2" id="iQe-ml-742"/>
+                    </items>
+                    <connections>
+                        <segue destination="dHY-QV-7VI" kind="relationship" relationship="nextPage" id="TW6-OD-WKz"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="714" y="-1673"/>
+        </scene>
+        <!--Swipe3-->
+        <scene sceneID="Zc8-SR-Qj8">
+            <objects>
+                <controller identifier="Swipe3" id="dHY-QV-7VI">
+                    <items>
+                        <label alignment="left" text="Page3" id="X2E-h5-rTg"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="963" y="-1673"/>
+        </scene>
         <!--Menu-->
         <scene sceneID="tIG-KA-8NJ">
             <objects>
