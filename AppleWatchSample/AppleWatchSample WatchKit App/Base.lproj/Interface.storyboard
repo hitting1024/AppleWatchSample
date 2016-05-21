@@ -54,7 +54,7 @@
         <!--Swipe1-->
         <scene sceneID="Fgw-I7-SlO">
             <objects>
-                <controller identifier="Swipe1" id="fph-mx-eIk" customClass="SwipeController" customModule="AppleWatchSample_WatchKit_Extension">
+                <controller identifier="Swipe1" id="fph-mx-eIk" customClass="TransitionSwipeController" customModule="AppleWatchSample_WatchKit_Extension">
                     <items>
                         <label alignment="left" text="Page1" id="Z6x-KP-T5o"/>
                     </items>
@@ -245,10 +245,10 @@
             </objects>
             <point key="canvasLocation" x="714" y="-224"/>
         </scene>
-        <!--ModalTransition-->
+        <!--TransitionModal-->
         <scene sceneID="bfu-aX-llz">
             <objects>
-                <controller identifier="ModalTransition" id="ik5-Lo-DsS" customClass="ModalTransitionController" customModule="AppleWatchSample_WatchKit_Extension">
+                <controller identifier="TransitionModal" id="ik5-Lo-DsS" customClass="TransitionModalController" customModule="AppleWatchSample_WatchKit_Extension">
                     <items>
                         <button width="1" alignment="center" verticalAlignment="center" title="Modal" id="ggP-Xu-LcG">
                             <connections>
@@ -275,10 +275,10 @@
             </objects>
             <point key="canvasLocation" x="714" y="63"/>
         </scene>
-        <!--SegueTransition-->
+        <!--TransitionSegue-->
         <scene sceneID="jd7-eb-ZXM">
             <objects>
-                <controller identifier="SegueTransition" id="Ijp-0N-WeP" customClass="SegueTransitionController" customModule="AppleWatchSample_WatchKit_Extension">
+                <controller identifier="TransitionSegue" id="Ijp-0N-WeP" customClass="TransitionSegueController" customModule="AppleWatchSample_WatchKit_Extension">
                     <items>
                         <table alignment="left" id="I7r-hK-KGm">
                             <items>

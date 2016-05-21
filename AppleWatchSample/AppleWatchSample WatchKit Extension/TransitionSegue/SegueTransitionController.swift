@@ -9,12 +9,12 @@
 import Foundation
 import WatchKit
 
-class SegueTransitionController: WKInterfaceController {
+class TransitionSegueController: WKInterfaceController {
     
     @IBOutlet weak var table: WKInterfaceTable!
     
     struct Identifiers {
-        static let name = "SegueTransition"
+        static let name = "TransitionSegue"
     }
     
     private static let rows = ["row1", "row2"]
@@ -26,15 +26,15 @@ class SegueTransitionController: WKInterfaceController {
     }
     
     private func initTable() {
-        self.table.setNumberOfRows(SegueTransitionController.rows.count, withRowType: TableRow.className)
-        for i in 0..<SegueTransitionController.rows.count {
+        self.table.setNumberOfRows(TransitionSegueController.rows.count, withRowType: TableRow.className)
+        for i in 0..<TransitionSegueController.rows.count {
             let row = self.table.rowControllerAtIndex(i) as! TableRow
-            row.label.setText(SegueTransitionController.rows[i])
+            row.label.setText(TransitionSegueController.rows[i])
         }
     }
     
     override func contextForSegueWithIdentifier(segueIdentifier: String, inTable table: WKInterfaceTable, rowIndex: Int) -> AnyObject? {
-        return SegueTransitionController.rows[rowIndex]
+        return TransitionSegueController.rows[rowIndex]
     }
 
     

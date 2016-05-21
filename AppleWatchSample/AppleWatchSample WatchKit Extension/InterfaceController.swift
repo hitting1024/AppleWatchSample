@@ -20,12 +20,12 @@ class InterfaceController: WKInterfaceController {
         ImageFromCodeController.Identifiers.name,
         ImageFromStoryBoardController.Identifiers.name,
         MenuController.Identifiers.name,
-        ModalTransitionController.Identifiers.name,
         PickerController.Identifiers.name,
-        SegueTransitionController.Identifiers.name,
         SliderController.Identifiers.name,
         SwitchController.Identifiers.name,
-        SwipeController.Identifiers.name,
+        TransitionModalController.Identifiers.name,
+        TransitionSegueController.Identifiers.name,
+        TransitionSwipeController.Identifiers.name,
         TimerController.Identifiers.name,
                                ]
     
@@ -55,8 +55,8 @@ class InterfaceController: WKInterfaceController {
     }
     
     override func table(table: WKInterfaceTable, didSelectRowAtIndex rowIndex: Int) {
-        if rowIndex == InterfaceController.rows.indexOf(SwipeController.Identifiers.name) {
-            self.presentControllerWithNames([SwipeController.Identifiers.page1, SwipeController.Identifiers.page2, SwipeController.Identifiers.page3], contexts: nil)
+        if rowIndex == InterfaceController.rows.indexOf(TransitionSwipeController.Identifiers.name) {
+            self.presentControllerWithNames([TransitionSwipeController.Identifiers.page1, TransitionSwipeController.Identifiers.page2, TransitionSwipeController.Identifiers.page3], contexts: nil)
             return
         }
         

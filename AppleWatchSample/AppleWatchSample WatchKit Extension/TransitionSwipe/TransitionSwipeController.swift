@@ -9,10 +9,10 @@
 import Foundation
 import WatchKit
 
-class SwipeController: WKInterfaceController {
+class TransitionSwipeController: WKInterfaceController {
     
     struct Identifiers {
-        static let name = "Swipe"
+        static let name = "TransitionSwipe"
         static let page1 = "Swipe1"
         static let page2 = "Swipe2"
         static let page3 = "Swipe3"

@@ -9,10 +9,10 @@
 import Foundation
 import WatchKit
 
-class ModalTransitionController: WKInterfaceController {
+class TransitionModalController: WKInterfaceController {
     
     struct Identifiers {
-        static let name = "ModalTransition"
+        static let name = "TransitionModal"
     }
     
     override func awakeWithContext(context: AnyObject?) {
